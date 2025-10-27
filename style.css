@@ -1,0 +1,35 @@
+body{
+    background-color: #39a9cb;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+#pictures{
+    width:500px;
+}
+.btn{
+    background-color: #ffeda3;
+    border:none;
+    color:#232323;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+
+@media all and (max-width: 800px ) {
+    .container{
+        height:100vh;
+    }
+    #pictures{
+        width:570px;
+}
+}
+@media all and (max-width: 500px ) {
+    #pictures{
+        width:250px;
+    }
+    .btn{
+        font-size:17px;
+    }
+}
+
